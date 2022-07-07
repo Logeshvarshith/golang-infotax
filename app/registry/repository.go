@@ -24,3 +24,12 @@ var (
 		wire.Bind(new(repository.EmployeeOfficialDetailRepository), new(*mysql.EmployeeOfficialDetailRepository)),
 	)
 )
+
+var (
+	employeePayrollRepositorySet = wire.NewSet(
+		config.ParseConfig,
+		config.NewDB,
+		mysql.NewEmployeePayrollDetailRepository,
+		wire.Bind(new(repository.EmployeePayrollDetailRepository), new(*mysql.EmployeePayrollDetailRepository)),
+	)
+)

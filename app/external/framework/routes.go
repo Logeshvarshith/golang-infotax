@@ -5,6 +5,7 @@ import (
 	"time"
 
 	employee_official_detail "www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/employee_official_detail"
+	employee_payroll_detail "www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/employee_payroll_detail"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail"
 
 	swaggerFiles "github.com/swaggo/files"
@@ -52,6 +53,13 @@ func Handler(conf *config.Config) *gin.Engine {
 	)
 
 	EmployeeOfficialDetailGroup.POST("/", EmployeeOfficialDetailHandler.CreateEmployeeOfficialDetail)
+
+	EmployeePayrollDetailGroup := r.Group(conf.EmployeePayrollDetailBaseUrl)
+	EmployeePayrollDetailHandler := employee_payroll_detail.NewEmployeePayrollDetailHandler(
+		registry.InjectedEmployeePayrollDetailUseCase(ctx),
+	)
+
+	EmployeePayrollDetailGroup.GET("/download/template", EmployeePayrollDetailHandler.DownloadEmployeePayrollDetailTemplate)
 
 	return r
 
