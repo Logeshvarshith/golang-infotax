@@ -12,6 +12,7 @@ type Config struct {
 	RefreshSecret                 string
 	UserLoginDetailBaseUrl        string
 	EmployeeOfficialDetailBaseUrl string
+	EmployeePayrollDetailBaseUrl  string
 	IdTokenExp                    int64
 	RefreshTokenExp               int64
 	HandlerTimeout                int64
@@ -30,6 +31,7 @@ func ParseConfig() *Config {
 		RefreshSecret:                 os.Getenv("REFRESH_SECRET"),
 		UserLoginDetailBaseUrl:        os.Getenv("USER_LOGIN_DETAIL_BASE_URL"),
 		EmployeeOfficialDetailBaseUrl: os.Getenv("EMPLOYEE_OFFICIAL_DETAIL_BASE_URL"),
+		EmployeePayrollDetailBaseUrl:  os.Getenv("EMPLOYEE_PAYROLL_DETAIL_BASE_URL"),
 		IdTokenExp:                    int64(idTokenExp),
 		RefreshTokenExp:               int64(refreshTokenExp),
 		HandlerTimeout:                int64(handlerTimeout),

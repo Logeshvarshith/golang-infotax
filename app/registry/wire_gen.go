@@ -11,6 +11,7 @@ import (
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/config"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/external/persistence/mysql"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/employee_official_detail"
+	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/employee_payroll_detail"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail"
 )
 
@@ -29,5 +30,13 @@ func InjectedEmployeeOfficialDetailUseCase(ctx context.Context) employee_officia
 	db := config.NewDB(configConfig)
 	employeeOfficialDetailRepository := mysql.NewEmployeeOfficialDetailRepository(db)
 	useCaser := employee_official_detail.NewUseCase(employeeOfficialDetailRepository)
+	return useCaser
+}
+
+func InjectedEmployeePayrollDetailUseCase(ctx context.Context) employee_payroll_detail.UseCaser {
+	configConfig := config.ParseConfig()
+	db := config.NewDB(configConfig)
+	employeePayrollDetailRepository := mysql.NewEmployeePayrollDetailRepository(db)
+	useCaser := employee_payroll_detail.NewUseCase(employeePayrollDetailRepository)
 	return useCaser
 }
