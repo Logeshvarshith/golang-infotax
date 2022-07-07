@@ -1,0 +1,876 @@
+2022-06-30 17:39:15 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:48:58 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:49:54 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:49:54 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:50:43 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:51:45 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:52:33 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:53:15 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:54:32 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:54:47 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 17:54:47 - get_user_login_detail.go - [line:49] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-06-30 18:44:42 - get_user_login_detail.go - [line:49] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 18:46:06 - get_user_login_detail.go - [line:49] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 18:46:25 - get_user_login_detail.go - [line:49] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 18:54:02 - get_user_login_detail.go - [line:49] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 18:54:59 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 18:55:41 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:02:33 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:02:33 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:02:33 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:02:41 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:02:41 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:16:48 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:24:32 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-06-30 19:24:32 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-06-30 19:25:03 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-06-30 19:25:11 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:25:11 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-06-30 19:25:11 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:29:48 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:29:56 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:29:56 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:29:56 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-06-30 19:29:56 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 10:22:44 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 10:50:25 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 11:05:04 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 11:05:04 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 11:06:15 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 11:07:03 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 11:18:58 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 11:18:58 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 11:19:10 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 11:19:10 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 11:19:10 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 11:19:10 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 11:19:10 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 11:19:10 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:33:12 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:33:12 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:33:12 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:33:37 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:33:37 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:34:35 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:34:35 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:35:53 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:35:53 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:35:53 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 12:36:56 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:36:56 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:36:56 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 12:37:17 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:37:17 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:37:17 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 12:37:23 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 12:37:23 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 12:37:23 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 12:37:23 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:37:23 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 12:37:23 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:37:23 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 12:50:35 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 12:50:35 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:50:35 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 12:51:53 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 12:51:53 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:51:53 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 12:55:56 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 12:55:56 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:55:56 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 12:57:05 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 12:57:05 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:57:05 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 12:57:13 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 12:57:13 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 12:57:13 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 12:57:13 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 12:57:13 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 12:57:13 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:57:13 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 12:57:13 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 12:57:13 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 12:57:13 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 13:14:53 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 13:15:24 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 13:15:24 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 13:15:56 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 13:15:56 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:30:26 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:30:26 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:30:26 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:30:49 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:30:49 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:30:49 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:30:49 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:30:49 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:30:49 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:33:22 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:33:22 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:33:22 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:37:32 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:37:32 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:37:32 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:37:51 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:37:51 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:37:51 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:38:01 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 14:38:01 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 14:38:01 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 14:38:01 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 14:38:01 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:38:01 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 14:38:01 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 14:38:01 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:38:01 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:38:01 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:38:01 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:38:01 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:38:01 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:38:01 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:38:01 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 14:38:01 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:38:01 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:38:01 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:38:01 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:38:01 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 14:38:01 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:38:01 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:38:01 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 14:38:01 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 14:38:01 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 14:38:01 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 14:40:00 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:40:00 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:41:29 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:41:29 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:41:29 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:41:37 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 14:41:37 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:41:37 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:41:37 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 14:41:37 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 14:41:37 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 14:41:37 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 14:41:37 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 14:41:37 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 14:41:37 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 14:41:37 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 14:41:37 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 14:41:37 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 15:06:57 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:08:33 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:09:13 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:09:13 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:10:08 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:10:08 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:10:08 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:10:08 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:10:56 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 15:10:56 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 15:10:56 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 15:10:56 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 15:10:56 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 15:10:56 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 15:10:56 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 15:10:56 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 15:10:56 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 15:10:56 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 15:10:56 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 15:10:56 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:10:56 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 15:10:56 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 15:10:56 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:11:03 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:11:03 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:12:28 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:12:28 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:12:57 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:12:57 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:13:49 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:15:52 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 15:15:53 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 15:15:53 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 15:15:53 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 15:15:53 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 15:15:53 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 15:15:53 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 15:15:53 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 15:15:53 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 15:15:53 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 15:15:53 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:15:53 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 15:15:53 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 15:15:53 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:15:53 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 15:16:00 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:16:00 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:16:25 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:29:04 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:29:47 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:32:49 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:36:45 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:36:45 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:37:21 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:37:21 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:38:45 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:40:10 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:44:46 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:48:08 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:48:25 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:52:37 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:54:56 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 15:55:03 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:02:37 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:02:53 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:07:23 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:08:05 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:09:54 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:10:28 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:10:45 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:10:45 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:10:45 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:10:45 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:12:22 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:12:22 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:14:36 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:14:36 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:16:04 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:16:04 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:16:04 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:16:04 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:16:15 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:16:15 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:22:19 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:22:19 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:24:12 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:24:12 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:24:51 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:24:51 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:25:48 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:25:48 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:26:16 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:26:16 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:32:55 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:32:55 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:33:29 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:33:29 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:33:29 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:33:29 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:37:41 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:37:41 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:42:58 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:42:58 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:42:58 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 16:45:28 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:45:28 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:45:53 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:45:53 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:45:53 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 16:47:05 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:47:05 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:47:05 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 16:47:28 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 16:47:28 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 16:47:28 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 16:47:28 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 16:47:28 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 16:47:28 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 16:47:28 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 16:47:28 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 16:47:28 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 16:47:28 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 16:47:28 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 16:47:28 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 16:47:28 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 16:47:28 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 16:47:28 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 16:47:28 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:01:59 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value : . not found
+
+2022-07-01 17:03:42 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:10:57 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:11:15 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:11:15 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 17:11:15 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 17:11:15 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 17:11:15 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:11:15 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 17:11:15 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:11:15 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:11:15 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 17:11:15 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:11:15 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 17:11:15 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 17:11:15 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:11:15 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:11:15 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 17:11:15 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:11:15 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:14:43 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:14:50 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:14:50 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 17:14:50 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 17:14:50 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 17:14:50 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:14:50 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 17:14:50 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:14:50 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:14:50 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:14:50 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 17:14:50 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:14:50 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:14:50 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:14:50 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 17:14:50 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 17:14:50 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:14:50 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 17:14:50 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:16:47 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:17:00 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:24:25 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 17:24:25 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:24:25 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 17:24:25 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:24:25 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 17:24:25 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:24:25 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 17:24:25 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:24:25 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:24:25 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:24:25 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:24:25 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 17:24:25 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:24:25 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:24:25 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 17:24:25 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:24:25 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 17:24:25 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 17:26:07 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 17:26:07 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 17:26:07 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:26:07 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 17:26:07 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 17:26:07 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:26:07 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:26:07 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 17:26:07 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:26:07 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:26:07 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 17:26:07 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:26:07 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:26:07 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:26:07 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:26:07 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 17:26:07 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:26:07 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 17:29:26 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:29:26 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:29:26 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:29:26 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:29:26 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 17:29:26 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 17:29:26 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:29:26 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 17:29:26 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:29:26 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 17:29:26 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:29:26 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:29:26 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 17:29:26 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 17:29:26 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 17:29:26 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:29:26 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:29:26 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 17:30:44 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:30:44 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:30:44 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:30:44 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 17:30:44 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 17:30:44 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:30:44 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 17:30:44 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 17:30:44 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:30:44 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:30:44 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 17:30:44 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:30:44 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:30:44 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:30:44 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 17:30:44 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 17:30:44 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:30:44 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 17:31:11 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:31:11 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:31:11 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 17:31:11 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:31:11 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 17:31:11 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 17:31:11 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 17:31:11 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 17:31:11 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:31:11 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 17:31:11 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:31:11 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 17:31:11 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 17:31:11 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 17:31:11 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 17:31:11 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 17:31:11 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 17:31:11 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 18:18:32 - download_users_login_detail.go - [line:23] - ERROR - Type : NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 18:18:32 - get_user_login_role.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 18:18:32 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/ only accepts Content-Type application/json
+
+2022-07-01 18:18:32 - validate_data.go - [line:27] - ERROR - Type: UNSUPPORTED_MEDIA_TYPE, Message : /infotax/user_login_detail/:emp_id only accepts Content-Type application/json
+
+2022-07-01 18:18:32 - get_user_login_detail.go - [line:39] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 18:18:32 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 18:18:32 - download_user_login_detail_template.go - [line:23] - ERROR - Type: NOT_FOUND, Message : Resource : File with value :  not found
+
+2022-07-01 18:18:32 - validate_data.go - [line:60] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-01 18:18:32 - create_user_login_detail.go - [line:42] - ERROR - Type: CONFLICT, Message : Resource : employee_id with value : 222222 already exists
+
+2022-07-01 18:18:32 - update_user_login_detail.go - [line:37] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value : 2521 not found
+
+2022-07-01 18:18:32 - delete_user_login_detail.go - [line:28] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+
+2022-07-01 18:18:32 - get_users_login_detail.go - [line:24] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 18:18:32 - search_user_login_detail.go - [line:53] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid query pareameters. Verify request query parameters once.
+
+2022-07-01 18:18:32 - upload_users_login_detail.go - [line:30] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file. Verify request file.
+
+2022-07-01 18:18:32 - search_user_login_detail.go - [line:67] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Valid query pareameters not found. Verify request query parameters once.
+
+2022-07-01 18:18:32 - search_user_login_detail.go - [line:76] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 18:18:32 - upload_users_login_detail.go - [line:40] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request file extension. Verify request file extension.
+
+2022-07-01 18:18:32 - upload_users_login_detail.go - [line:50] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-01 19:52:54 - get_user_login_detail.go - [line:38] - ERROR - Type: NOT_FOUND, Message : Resource : employee_id with value :   not found
+

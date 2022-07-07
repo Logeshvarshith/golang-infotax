@@ -1,0 +1,490 @@
+basePath: /
+definitions:
+  CreateUserDetail:
+    properties:
+      domain_name:
+        type: string
+      email_id:
+        type: string
+      employee_id:
+        type: string
+      role:
+        enum:
+        - Payroll_User
+        - Accounts_Team
+        - Payroll_Team
+        type: string
+    required:
+    - domain_name
+    - email_id
+    - employee_id
+    - role
+    type: object
+  DeleteResponse:
+    properties:
+      isDeleted:
+        type: string
+    type: object
+  Error:
+    properties:
+      message:
+        type: string
+      type:
+        type: string
+    type: object
+  SaveResponse:
+    properties:
+      isSaved:
+        type: string
+    type: object
+  UpdateResponse:
+    properties:
+      isUpdated:
+        type: string
+    type: object
+  UpdateUserDetail:
+    properties:
+      domain_name:
+        type: string
+      email_id:
+        type: string
+      role:
+        enum:
+        - Payroll_User
+        - Accounts_Team
+        - Payroll_Team
+        type: string
+    required:
+    - domain_name
+    type: object
+  UserLoginDetail:
+    properties:
+      domain_name:
+        type: string
+      email_id:
+        type: string
+      employee_id:
+        type: string
+      isSignedup:
+        type: integer
+      password:
+        type: string
+      role:
+        type: string
+      uuid:
+        type: string
+    type: object
+  UserLoginRole:
+    properties:
+      role:
+        type: string
+    type: object
+  in.CreateEmployeeOfficial:
+    properties:
+      date_of_joining:
+        type: string
+      domain_name:
+        type: string
+      employee_id:
+        type: integer
+      floor_number:
+        type: string
+      grade_id:
+        type: integer
+      location:
+        type: string
+      official_mail_id:
+        type: string
+      project_id:
+        type: integer
+      seat_number:
+        type: string
+    required:
+    - domain_name
+    - employee_id
+    - official_mail_id
+    - project_id
+    type: object
+host: localhost:5000
+info:
+  contact: {}
+  description: User friendly tax deduction system
+  title: Info Tax
+  version: "1.0"
+paths:
+  /infotax/employee_official_detail:
+    post:
+      consumes:
+      - application/json
+      description: Create employee official details
+      operationId: create_employee_official_detail
+      parameters:
+      - description: Employee official details
+        in: body
+        name: message
+        required: true
+        schema:
+          $ref: '#/definitions/in.CreateEmployeeOfficial'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/SaveResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Error'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/Error'
+        "415":
+          description: Unsupported Media Type
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Create employee official  details
+      tags:
+      - employee official Detail
+  /infotax/user_login_detail:
+    post:
+      consumes:
+      - application/json
+      description: Create login user details
+      operationId: create_user_login_detail
+      parameters:
+      - description: User login details
+        in: body
+        name: message
+        required: true
+        schema:
+          $ref: '#/definitions/CreateUserDetail'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/SaveResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Error'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/Error'
+        "415":
+          description: Unsupported Media Type
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Create login user details
+      tags:
+      - User Login Detail
+  /infotax/user_login_detail/:
+    get:
+      consumes:
+      - application/json
+      description: Get all login user detail
+      operationId: get_all_user_login_detail
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/UserLoginDetail'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Get all login user detail
+      tags:
+      - User Login Detail
+  /infotax/user_login_detail/{emp_id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete login user details by employee id
+      operationId: delete_user_login_detail
+      parameters:
+      - description: Employee ID
+        in: path
+        name: emp_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/DeleteResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Error'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Delete login user details based on employee id
+      tags:
+      - User Login Detail
+    get:
+      description: Get detail by employee id
+      operationId: get_user_login_detail
+      parameters:
+      - description: Employee ID
+        in: path
+        name: emp_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/UserLoginDetail'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Error'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Get login user detail based on employee id
+      tags:
+      - User Login Detail
+    put:
+      consumes:
+      - application/json
+      description: Update login user details
+      operationId: update_user_login_detail
+      parameters:
+      - description: Employee ID
+        in: path
+        name: emp_id
+        required: true
+        type: string
+      - description: Update user login details
+        in: body
+        name: message
+        required: true
+        schema:
+          $ref: '#/definitions/UpdateUserDetail'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/UpdateResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Error'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/Error'
+        "415":
+          description: Unsupported Media Type
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Update login user details
+      tags:
+      - User Login Detail
+  /infotax/user_login_detail/download:
+    get:
+      description: Return user login details in csv file format
+      operationId: download_users_login_detail
+      produces:
+      - application/octet-stream
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: file
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Return user login details in csv file format
+      tags:
+      - User Login Detail
+  /infotax/user_login_detail/download/template:
+    get:
+      description: Return user login details template in csv file format
+      operationId: download_users_login_detail_template
+      produces:
+      - application/octet-stream
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: file
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Return user login details template in csv file format
+      tags:
+      - User Login Detail
+  /infotax/user_login_detail/role/{emp_id}:
+    get:
+      consumes:
+      - application/json
+      description: Get role by employee id
+      operationId: get_user_login_detail_role
+      parameters:
+      - description: Employee ID
+        in: path
+        name: emp_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/UserLoginRole'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Error'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Get login user role based on employee id
+      tags:
+      - User Login Detail
+  /infotax/user_login_detail/search:
+    get:
+      consumes:
+      - application/json
+      description: Search login user detail based on search filter
+      operationId: search_user_login_detail
+      parameters:
+      - description: EmployeeID filter
+        in: query
+        name: employee_id
+        type: string
+      - description: DomainName filter
+        in: query
+        name: domain_name
+        type: string
+      - description: EmailID filter
+        in: query
+        name: email_id
+        type: string
+      - description: Password filter
+        in: query
+        name: password
+        type: string
+      - description: UUID filter
+        in: query
+        name: uuid
+        type: string
+      - description: IsSignedup filter
+        in: query
+        name: isSignedup
+        type: integer
+      - description: Role filter
+        in: query
+        name: role
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/UserLoginDetail'
+            type: array
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Search login user detail based on search filter
+      tags:
+      - User Login Detail
+  /infotax/user_login_detail/upload:
+    post:
+      consumes:
+      - application/octet-stream
+      description: Insert bulk of users login details present in input csv file
+      operationId: upload_users_login_detail
+      parameters:
+      - description: Users login details form
+        in: formData
+        name: file
+        required: true
+        type: file
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/SaveResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/Error'
+        "409":
+          description: Conflict
+          schema:
+            $ref: '#/definitions/Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+      summary: Insert bulk of users login details present in input csv file
+      tags:
+      - User Login Detail
+swagger: "2.0"

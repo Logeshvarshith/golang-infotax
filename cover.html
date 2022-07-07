@@ -1,0 +1,1086 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>user_login_detail: Go Coverage Report</title>
+		<style>
+			body {
+				background: black;
+				color: rgb(80, 80, 80);
+			}
+			body, pre, #legend span {
+				font-family: Menlo, monospace;
+				font-weight: bold;
+			}
+			#topbar {
+				background: black;
+				position: fixed;
+				top: 0; left: 0; right: 0;
+				height: 42px;
+				border-bottom: 1px solid rgb(80, 80, 80);
+			}
+			#content {
+				margin-top: 50px;
+			}
+			#nav, #legend {
+				float: left;
+				margin-left: 10px;
+			}
+			#legend {
+				margin-top: 12px;
+			}
+			#nav {
+				margin-top: 10px;
+			}
+			#legend span {
+				margin: 0 5px;
+			}
+			.cov0 { color: rgb(192, 0, 0) }
+.cov1 { color: rgb(128, 128, 128) }
+.cov2 { color: rgb(116, 140, 131) }
+.cov3 { color: rgb(104, 152, 134) }
+.cov4 { color: rgb(92, 164, 137) }
+.cov5 { color: rgb(80, 176, 140) }
+.cov6 { color: rgb(68, 188, 143) }
+.cov7 { color: rgb(56, 200, 146) }
+.cov8 { color: rgb(44, 212, 149) }
+.cov9 { color: rgb(32, 224, 152) }
+.cov10 { color: rgb(20, 236, 155) }
+
+		</style>
+	</head>
+	<body>
+		<div id="topbar">
+			<div id="nav">
+				<select id="files">
+				
+				<option value="file0">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/create_user_login_detail.go (100.0%)</option>
+				
+				<option value="file1">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/delete_user_login_detail.go (100.0%)</option>
+				
+				<option value="file2">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/download_user_login_detail_template.go (100.0%)</option>
+				
+				<option value="file3">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/download_users_login_detail.go (100.0%)</option>
+				
+				<option value="file4">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/get_user_login_detail.go (100.0%)</option>
+				
+				<option value="file5">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/get_user_login_role.go (100.0%)</option>
+				
+				<option value="file6">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/get_users_login_detail.go (100.0%)</option>
+				
+				<option value="file7">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/search_user_login_detail.go (100.0%)</option>
+				
+				<option value="file8">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/update_user_login_detail.go (100.0%)</option>
+				
+				<option value="file9">www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler/user_login_detail/upload_users_login_detail.go (100.0%)</option>
+				
+				<option value="file10">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/create_user_login_detail.go (100.0%)</option>
+				
+				<option value="file11">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/delete_user_login_detail.go (100.0%)</option>
+				
+				<option value="file12">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/download_user_login_detail_template.go (100.0%)</option>
+				
+				<option value="file13">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/download_users_login_detail.go (100.0%)</option>
+				
+				<option value="file14">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/get_user_login_detail.go (100.0%)</option>
+				
+				<option value="file15">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/get_user_login_role.go (100.0%)</option>
+				
+				<option value="file16">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/get_users_login_detail.go (100.0%)</option>
+				
+				<option value="file17">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/interfaces.go (100.0%)</option>
+				
+				<option value="file18">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/search_user_login_detail.go (100.0%)</option>
+				
+				<option value="file19">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/update_user_login_detail.go (100.0%)</option>
+				
+				<option value="file20">www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/upload_users_login_detail.go (100.0%)</option>
+				
+				</select>
+			</div>
+			<div id="legend">
+				<span>not tracked</span>
+			
+				<span class="cov0">no coverage</span>
+				<span class="cov1">low coverage</span>
+				<span class="cov2">*</span>
+				<span class="cov3">*</span>
+				<span class="cov4">*</span>
+				<span class="cov5">*</span>
+				<span class="cov6">*</span>
+				<span class="cov7">*</span>
+				<span class="cov8">*</span>
+				<span class="cov9">*</span>
+				<span class="cov10">high coverage</span>
+			
+			</div>
+		</div>
+		<div id="content">
+		
+		<pre class="file" id="file0" style="display: none">package user_login_detail
+
+import (
+        "net/http"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/in"
+)
+
+// CreateUserLoginDetail godoc
+// @Summary Create login user details
+// @Description Create login user details
+// @Tags User Login Detail
+// @ID create_user_login_detail
+// @Accept json
+// @Produce json
+// @Param message body in.CreateUserDetail true "User login details"
+// @Success 200 {object} out.SaveResponse
+// @Failure 400 {object} error.Error
+// @Failure 409 {object} error.Error
+// @Failure 415 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail [post]
+func (u *UserLoginDetailHandler) CreateUserLoginDetail(ctx *gin.Context) <span class="cov10" title="4">{
+
+        var detail in.CreateUserDetail
+        if ok := handler.ValidateData(ctx, &amp;detail); !ok </span><span class="cov5" title="2">{
+                return
+        }</span>
+
+        // Defaul values
+        <span class="cov5" title="2">detail.Password = ""
+        detail.IsSignedUp = 0
+        detail.UUID = "TestData"
+        detail.EnableAccess = "No"
+
+        saveRes, err := u.userLoginDetailUseCase.CreateUserLoginDetail(ctx, detail)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.JSON(http.StatusOK, saveRes)</span>
+
+}
+</pre>
+		
+		<pre class="file" id="file1" style="display: none">package user_login_detail
+
+import (
+        "net/http"
+
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+// DeleteUserLoginDetail godoc
+// @Summary Delete login user details based on employee id
+// @Description Delete login user details by employee id
+// @Tags User Login Detail
+// @ID delete_user_login_detail
+// @Accept json
+// @Produce json
+// @Param emp_id path string true "Employee ID"
+// @Success 200 {object} out.DeleteResponse
+// @Failure 400 {object} error.Error
+// @Failure 404 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/{emp_id} [delete]
+func (u *UserLoginDetailHandler) DeleteUserLoginDetail(ctx *gin.Context) <span class="cov10" title="2">{
+
+        empID := ctx.Param("emp_id")
+        delRes, err := u.userLoginDetailUseCase.DeleteUserLoginDetail(ctx, empID)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.JSON(http.StatusOK, delRes)</span>
+
+}
+</pre>
+		
+		<pre class="file" id="file2" style="display: none">package user_login_detail
+
+import (
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+// DownloadUserLoginDetailTemplate godoc
+// @Summary Return user login details template in csv file format
+// @Description Return user login details template in csv file format
+// @Tags User Login Detail
+// @ID download_users_login_detail_template
+// @Produce application/octet-stream
+// @Success 200 {file} file
+// @Failure 404 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/download/template [get]
+func (u *UserLoginDetailHandler) DownloadUserLoginDetailTemplate(ctx *gin.Context) <span class="cov10" title="2">{
+
+        path := "outfile/user_login_detail_template.csv"
+        fileName, filePath, err := u.userLoginDetailUseCase.DownloadUserLoginDetailTemplate(ctx, path)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.Header("Content-Type", "application/octet-stream")
+        ctx.Header("Content-Disposition", "inline;filename="+fileName)
+        ctx.Header("Content-Transfer-Encoding", "binary")
+        ctx.Header("Cache-Control", "no-cache")
+        ctx.File(filePath)</span>
+}
+</pre>
+		
+		<pre class="file" id="file3" style="display: none">package user_login_detail
+
+import (
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+// DownloadUsersLoginDetail godoc
+// @Summary Return user login details in csv file format
+// @Description Return user login details in csv file format
+// @Tags User Login Detail
+// @ID download_users_login_detail
+// @Produce application/octet-stream
+// @Success 200 {file} file
+// @Failure 404 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/download [get]
+func (u *UserLoginDetailHandler) DownloadUsersLoginDetail(ctx *gin.Context) <span class="cov10" title="2">{
+
+        path := "outfile/user_login_detail.csv"
+        fileName, filePath, err := u.userLoginDetailUseCase.DownloadUsersLoginDetail(ctx, path)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type : %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.Header("Content-Type", "application/octet-stream")
+        ctx.Header("Content-Disposition", "inline;filename="+fileName)
+        ctx.Header("Content-Transfer-Encoding", "binary")
+        ctx.Header("Cache-Control", "no-cache")
+        ctx.File(filePath)</span>
+}
+</pre>
+		
+		<pre class="file" id="file4" style="display: none">package user_login_detail
+
+import (
+        "net/http"
+
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+type UserLoginDetailHandler struct {
+        userLoginDetailUseCase user_login_detail.UseCaser
+}
+
+// NewUserLoginDetailHandler function is used to make new UserLoginDetailHandler struct.
+func NewUserLoginDetailHandler(userLoginDetailUseCase user_login_detail.UseCaser) UserLoginDetailHandler <span class="cov10" title="28">{
+        return UserLoginDetailHandler{
+                userLoginDetailUseCase: userLoginDetailUseCase,
+        }
+}</span>
+
+// GetUserLoginDetail godoc
+// @Summary Get login user detail based on employee id
+// @Description Get detail by employee id
+// @Tags User Login Detail
+// @ID get_user_login_detail
+// @Accept json
+// @Produce json
+// @Param emp_id path string true "Employee ID"
+// @Success 200 {object} out.UserLoginDetail
+// @Failure 400 {object} error.Error
+// @Failure 404 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/{emp_id} [get]
+func (u *UserLoginDetailHandler) GetUserLoginDetail(ctx *gin.Context) <span class="cov2" title="2">{
+        empID := ctx.Param("emp_id")
+        userLoginDtl, err := u.userLoginDetailUseCase.GetUserLoginDetail(ctx, empID)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.JSON(http.StatusOK, userLoginDtl)</span>
+
+}
+</pre>
+		
+		<pre class="file" id="file5" style="display: none">package user_login_detail
+
+import (
+        "net/http"
+
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+// GetUserLoginRole godoc
+// @Summary Get login user role based on employee id
+// @Description Get role by employee id
+// @Tags User Login Detail
+// @ID get_user_login_detail_role
+// @Accept json
+// @Produce json
+// @Param emp_id path string true "Employee ID"
+// @Success 200 {object} out.UserLoginRole
+// @Failure 400 {object} error.Error
+// @Failure 404 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/role/{emp_id} [get]
+func (u *UserLoginDetailHandler) GetUserLoginRole(ctx *gin.Context) <span class="cov10" title="2">{
+
+        empID := ctx.Param("emp_id")
+        role, err := u.userLoginDetailUseCase.GetUserLoginRole(ctx, empID)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.JSON(http.StatusOK, role)</span>
+
+}
+</pre>
+		
+		<pre class="file" id="file6" style="display: none">package user_login_detail
+
+import (
+        "net/http"
+
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+// GetAllUserLoginDetail godoc
+// @Summary Get all login user detail
+// @Description Get all login user detail
+// @Tags User Login Detail
+// @ID get_all_user_login_detail
+// @Accept json
+// @Produce json
+// @Success 200 {object} []out.UserLoginDetail
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/ [get]
+func (u *UserLoginDetailHandler) GetAllUserLoginDetail(ctx *gin.Context) <span class="cov10" title="2">{
+
+        userLoginDtls, err := u.userLoginDetailUseCase.GetAllUserLoginDetail(ctx)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.JSON(http.StatusOK, userLoginDtls)</span>
+
+}
+</pre>
+		
+		<pre class="file" id="file7" style="display: none">package user_login_detail
+
+import (
+        "net/http"
+        "strconv"
+
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+// SearchUserLoginDetail godoc
+// @Summary Search login user detail based on search filter
+// @Description Search login user detail based on search filter
+// @Tags User Login Detail
+// @ID search_user_login_detail
+// @Accept json
+// @Produce json
+// @Param employee_id query string false "EmployeeID filter"
+// @Param domain_name query string false "DomainName filter"
+// @Param email_id query string false "EmailID filter"
+// @Param password query string false "Password filter"
+// @Param uuid query string false "UUID filter"
+// @Param isSignedup query int false "IsSignedup filter"
+// @Param role query string false "Role filter"
+// @Success 200 {object} []out.UserLoginDetail
+// @Failure 400 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/search [get]
+func (u *UserLoginDetailHandler) SearchUserLoginDetail(ctx *gin.Context) <span class="cov10" title="4">{
+
+        filterMap := make(map[string]interface{})
+
+        if employeeID, ok := ctx.GetQuery("employee_id"); ok </span><span class="cov8" title="3">{
+                filterMap["employee_id"] = employeeID
+        }</span>
+        <span class="cov10" title="4">if domainName, ok := ctx.GetQuery("domain_name"); ok </span><span class="cov8" title="3">{
+                filterMap["domain_name"] = domainName
+        }</span>
+        <span class="cov10" title="4">if emailID, ok := ctx.GetQuery("email_id"); ok </span><span class="cov5" title="2">{
+                filterMap["email_id"] = emailID
+        }</span>
+        <span class="cov10" title="4">if password, ok := ctx.GetQuery("password"); ok </span><span class="cov5" title="2">{
+                filterMap["password"] = password
+        }</span>
+        <span class="cov10" title="4">if uuid, ok := ctx.GetQuery("uuid"); ok </span><span class="cov5" title="2">{
+                filterMap["uuid"] = uuid
+        }</span>
+        <span class="cov10" title="4">if isSignedUpStr, ok := ctx.GetQuery("isSignedup"); ok </span><span class="cov8" title="3">{
+                isSignedUp, cerr := strconv.Atoi(isSignedUpStr)
+                if cerr != nil </span><span class="cov1" title="1">{
+                        err := error.NewBadRequest("Invalid query pareameters. Verify request query parameters once.")
+                        log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                        ctx.JSON(err.Status(), gin.H{
+                                "error": err,
+                        })
+                        return
+                }</span>
+                <span class="cov5" title="2">filterMap["isSignedup"] = isSignedUp</span>
+        }
+        <span class="cov8" title="3">if role, ok := ctx.GetQuery("role"); ok </span><span class="cov5" title="2">{
+                filterMap["role"] = role
+        }</span>
+
+        <span class="cov8" title="3">if len(filterMap) &lt; 1 </span><span class="cov1" title="1">{
+                err := error.NewBadRequest("Valid query pareameters not found. Verify request query parameters once.")
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov5" title="2">details, err := u.userLoginDetailUseCase.SearchUserLoginDetail(ctx, filterMap)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.JSON(http.StatusOK, details)</span>
+
+}
+</pre>
+		
+		<pre class="file" id="file8" style="display: none">package user_login_detail
+
+import (
+        "net/http"
+
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/in"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+// UpdateUserLoginDetail godoc
+// @Summary Update login user details
+// @Description Update login user details
+// @Tags User Login Detail
+// @ID update_user_login_detail
+// @Accept json
+// @Produce json
+// @Param emp_id path string true "Employee ID"
+// @Param message body in.UpdateUserDetail true "Update user login details"
+// @Success 200 {object} out.UpdateResponse
+// @Failure 400 {object} error.Error
+// @Failure 404 {object} error.Error
+// @Failure 415 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/{emp_id} [put]
+func (u *UserLoginDetailHandler) UpdateUserLoginDetail(ctx *gin.Context) <span class="cov10" title="4">{
+
+        empID := ctx.Param("emp_id")
+        var detail in.UpdateUserDetail
+        if ok := handler.ValidateData(ctx, &amp;detail); !ok </span><span class="cov5" title="2">{
+                return
+        }</span>
+
+        <span class="cov5" title="2">updRes, err := u.userLoginDetailUseCase.UpdateUserLoginDetail(ctx, empID, detail)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.JSON(http.StatusOK, updRes)</span>
+
+}
+</pre>
+		
+		<pre class="file" id="file9" style="display: none">package user_login_detail
+
+import (
+        "net/http"
+        "path/filepath"
+
+        "github.com/gin-gonic/gin"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
+)
+
+// UploadUsersLoginDetail godoc
+// @Summary Insert bulk of users login details present in input csv file
+// @Description Insert bulk of users login details present in input csv file
+// @Tags User Login Detail
+// @ID upload_users_login_detail
+// @Accept application/octet-stream
+// @Produce application/json
+// @Param file formData file true "Users login details form"
+// @Success 200 {object} out.SaveResponse
+// @Failure 404 {object} error.Error
+// @Failure 409 {object} error.Error
+// @Failure 500 {object} error.Error
+// @Router /infotax/user_login_detail/upload [post]
+func (u *UserLoginDetailHandler) UploadUsersLoginDetail(ctx *gin.Context) <span class="cov10" title="4">{
+
+        file, fileHeader, ferr := ctx.Request.FormFile("file")
+        if ferr != nil </span><span class="cov1" title="1">{
+                err := error.NewBadRequest("Invalid request file. Verify request file.")
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov8" title="3">ext := filepath.Ext(fileHeader.Filename)
+        if ext != ".csv" </span><span class="cov1" title="1">{
+                err := error.NewBadRequest("Invalid request file extension. Verify request file extension.")
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+        <span class="cov5" title="2">defer file.Close()
+
+        saveRes, err := u.userLoginDetailUseCase.UploadUsersLoginDetail(ctx, file)
+        if err != nil </span><span class="cov1" title="1">{
+                log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)
+                ctx.JSON(err.Status(), gin.H{
+                        "error": err,
+                })
+                return
+        }</span>
+
+        <span class="cov1" title="1">ctx.JSON(http.StatusOK, saveRes)</span>
+}
+</pre>
+		
+		<pre class="file" id="file10" style="display: none">package user_login_detail
+
+import (
+        "context"
+
+        "github.com/jinzhu/copier"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/domain/entity"
+
+        "github.com/go-sql-driver/mysql"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/in"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// CreateUserLoginDetail method is used to send user login detail to repository and verify the return data from repoistory.
+func (uc *useCase) CreateUserLoginDetail(ctx context.Context, detail in.CreateUserDetail) (savRes out.SaveResponse, err *error.Error) <span class="cov10" title="3">{
+
+        var dtl entity.UserLoginDetails
+        copier.Copy(&amp;dtl, &amp;detail)
+        rerr := uc.userLoginDetailRepo.CreateUserLoginDetail(ctx, dtl)
+
+        serr, ok := rerr.(*mysql.MySQLError)
+        if rerr != nil &amp;&amp; !ok </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov6" title="2">if ok &amp;&amp; serr.Number == 1062 </span><span class="cov1" title="1">{
+                err = error.NewConflict("employee_id", detail.EmployeeID)
+                return
+        }</span>
+
+        <span class="cov1" title="1">savRes = out.SaveResponse{
+                IsSaved: "true",
+        }
+        return</span>
+}
+</pre>
+		
+		<pre class="file" id="file11" style="display: none">package user_login_detail
+
+import (
+        "context"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/domain/entity"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// DeleteUserLoginDetail method is used to send filter detail to repository and verify the return data from repoistory.
+func (uc *useCase) DeleteUserLoginDetail(ctx context.Context, empID string) (delRes out.DeleteResponse, err *error.Error) <span class="cov10" title="4">{
+
+        exist, rerr := uc.userLoginDetailRepo.CheckIfUserLoginDetailExists(ctx, entity.EmployeeID(empID))
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+        <span class="cov8" title="3">if !exist </span><span class="cov1" title="1">{
+                err = error.NewNotFound("employee_id", empID)
+                return
+        }</span>
+
+        <span class="cov5" title="2">rerr = uc.userLoginDetailRepo.DeleteUserLoginDetail(ctx, entity.EmployeeID(empID))
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov1" title="1">delRes = out.DeleteResponse{
+                IsDeleted: "true",
+        }
+        return</span>
+}
+</pre>
+		
+		<pre class="file" id="file12" style="display: none">package user_login_detail
+
+import (
+        "context"
+        "encoding/csv"
+        "os"
+        "path"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+)
+
+// DownloadUserLoginDetailTemplate method is used to return users login details template in CSV format.
+func (uc *useCase) DownloadUserLoginDetailTemplate(ctx context.Context, fp string) (fileName, filePath string, err *error.Error) <span class="cov10" title="2">{
+
+        filePath = fp
+        filetmp, ferr := os.Create(filePath)
+        defer filetmp.Close()
+        fileName = path.Base(filePath)
+        if filePath == "" || fileName == "" || ferr != nil </span><span class="cov1" title="1">{
+                err = error.NewNotFound("File", fileName)
+                return
+        }</span>
+
+        <span class="cov1" title="1">csvWriter := csv.NewWriter(filetmp)
+        defer csvWriter.Flush()
+
+        dtlHeader := []string{"domain_name", "email_id", "employee_id", "isSingedup", "password", "role", "uuid"}
+        csvWriter.Write(dtlHeader)
+        return</span>
+}
+</pre>
+		
+		<pre class="file" id="file13" style="display: none">package user_login_detail
+
+import (
+        "context"
+        "encoding/csv"
+        "fmt"
+        "os"
+        "path"
+
+        "github.com/jinzhu/copier"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// DownloadUsersLoginDetail method is used to return users login details in CSV format.
+func (uc *useCase) DownloadUsersLoginDetail(ctx context.Context, fp string) (fileName, filePath string, err *error.Error) <span class="cov10" title="3">{
+        var details []out.UserLoginDetail
+        dtls, rerr := uc.userLoginDetailRepo.GetAllUserLoginDetail(ctx)
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov6" title="2">copier.Copy(&amp;details, &amp;dtls)
+        filePath = fp
+        filetmp, ferr := os.Create(filePath)
+        defer filetmp.Close()
+        fileName = path.Base(filePath)
+        if filePath == "" || fileName == "" || ferr != nil </span><span class="cov1" title="1">{
+                err = error.NewNotFound("File", fileName)
+                return
+        }</span>
+
+        <span class="cov1" title="1">csvWriter := csv.NewWriter(filetmp)
+        defer csvWriter.Flush()
+
+        dtlHeader := []string{"domain_name", "email_id", "employee_id", "isSingedup", "password", "role", "uuid"}
+        csvWriter.Write(dtlHeader)
+
+        for _, detail := range details </span><span class="cov6" title="2">{
+                dtl := []string{detail.DomainName, detail.EmailID, detail.EmployeeID, fmt.Sprintf("%v", detail.IsSignedUp), detail.Password, detail.Role, detail.UUID}
+                csvWriter.Write(dtl)
+        }</span>
+
+        <span class="cov1" title="1">return</span>
+}
+</pre>
+		
+		<pre class="file" id="file14" style="display: none">package user_login_detail
+
+import (
+        "context"
+        "errors"
+
+        "gorm.io/gorm"
+
+        "github.com/jinzhu/copier"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/domain/entity"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// GetUserLoginDetail method is used to send data to userLoginDetail repository and verify the return data from repoistory.
+func (uc *useCase) GetUserLoginDetail(ctx context.Context, empID string) (userLoginDetail out.UserLoginDetail, err *error.Error) <span class="cov10" title="4">{
+
+        exist, rerr := uc.userLoginDetailRepo.CheckIfUserLoginDetailExists(ctx, entity.EmployeeID(empID))
+        if rerr != nil &amp;&amp; !(errors.Is(rerr, gorm.ErrRecordNotFound)) </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+        <span class="cov8" title="3">if !exist </span><span class="cov1" title="1">{
+                err = error.NewNotFound("employee_id", empID)
+                return
+        }</span>
+
+        <span class="cov5" title="2">dtl, rerr := uc.userLoginDetailRepo.GetUserLoginDetail(ctx, entity.EmployeeID(empID))
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov1" title="1">copier.Copy(&amp;userLoginDetail, &amp;dtl)
+
+        return</span>
+}
+</pre>
+		
+		<pre class="file" id="file15" style="display: none">package user_login_detail
+
+import (
+        "context"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/domain/entity"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// GetUserLoginRole method is used to send filter detail to repository and verify the return data from repoistory.
+func (uc *useCase) GetUserLoginRole(ctx context.Context, empID string) (userLoginDeatil out.UserLoginRole, err *error.Error) <span class="cov10" title="4">{
+
+        exist, rerr := uc.userLoginDetailRepo.CheckIfUserLoginDetailExists(ctx, entity.EmployeeID(empID))
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+        <span class="cov8" title="3">if !exist </span><span class="cov1" title="1">{
+                err = error.NewNotFound("employee_id", empID)
+                return
+        }</span>
+
+        <span class="cov5" title="2">role, rerr := uc.userLoginDetailRepo.GetUserLoginRole(ctx, entity.EmployeeID(empID))
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov1" title="1">userLoginDeatil.Role = string(role)
+
+        return</span>
+}
+</pre>
+		
+		<pre class="file" id="file16" style="display: none">package user_login_detail
+
+import (
+        "context"
+
+        "github.com/jinzhu/copier"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// GetAllUserLoginDetail method is used to fetch all the user login details.
+func (uc *useCase) GetAllUserLoginDetail(ctx context.Context) (userLoginDeatils []out.UserLoginDetail, err *error.Error) <span class="cov10" title="2">{
+
+        dtls, rerr := uc.userLoginDetailRepo.GetAllUserLoginDetail(ctx)
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov1" title="1">copier.Copy(&amp;userLoginDeatils, &amp;dtls)
+
+        return</span>
+}
+</pre>
+		
+		<pre class="file" id="file17" style="display: none">package user_login_detail
+
+import (
+        "context"
+        "mime/multipart"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/domain/repository"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/in"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+type UseCaser interface {
+        GetUserLoginDetail(ctx context.Context, empID string) (out.UserLoginDetail, *error.Error)
+        GetUserLoginRole(ctx context.Context, empID string) (out.UserLoginRole, *error.Error)
+        GetAllUserLoginDetail(ctx context.Context) ([]out.UserLoginDetail, *error.Error)
+        DeleteUserLoginDetail(ctx context.Context, empID string) (out.DeleteResponse, *error.Error)
+        CreateUserLoginDetail(ctx context.Context, detail in.CreateUserDetail) (out.SaveResponse, *error.Error)
+        UpdateUserLoginDetail(ctx context.Context, empID string, detail in.UpdateUserDetail) (out.UpdateResponse, *error.Error)
+        SearchUserLoginDetail(ctx context.Context, filterMap map[string]interface{}) ([]out.UserLoginDetail, *error.Error)
+        DownloadUsersLoginDetail(ctx context.Context, filePath string) (string, string, *error.Error)
+        DownloadUserLoginDetailTemplate(ctx context.Context, filePath string) (string, string, *error.Error)
+        UploadUsersLoginDetail(ctx context.Context, file multipart.File) (out.SaveResponse, *error.Error)
+}
+
+type useCase struct {
+        userLoginDetailRepo repository.UserLoginDetailRepository
+}
+
+// NewUseCase function is used to make new userCase struct.
+func NewUseCase(userLoginDetailRepo repository.UserLoginDetailRepository) UseCaser <span class="cov10" title="35">{
+        return &amp;useCase{
+                userLoginDetailRepo: userLoginDetailRepo,
+        }
+}</span>
+</pre>
+		
+		<pre class="file" id="file18" style="display: none">package user_login_detail
+
+import (
+        "context"
+
+        "github.com/jinzhu/copier"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// SearchUserLoginDetail method is used to send filter detail to repository and get login user details
+func (uc *useCase) SearchUserLoginDetail(ctx context.Context, filterMap map[string]interface{}) (details []out.UserLoginDetail, err *error.Error) <span class="cov10" title="2">{
+        dtls, rerr := uc.userLoginDetailRepo.SearchUserLoginDetail(ctx, filterMap)
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov1" title="1">copier.Copy(&amp;details, &amp;dtls)
+
+        return</span>
+}
+</pre>
+		
+		<pre class="file" id="file19" style="display: none">package user_login_detail
+
+import (
+        "context"
+
+        "github.com/jinzhu/copier"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/domain/entity"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/in"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// UpdateUserLoginDetail method is used to share user login detail to repository and verify the return data from repoistory.
+func (uc *useCase) UpdateUserLoginDetail(ctx context.Context, empID string, detail in.UpdateUserDetail) (updRes out.UpdateResponse, err *error.Error) <span class="cov10" title="5">{
+
+        id := entity.EmployeeID(empID)
+        exist, rerr := uc.userLoginDetailRepo.CheckIfUserLoginDetailExists(ctx, id)
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+        <span class="cov8" title="4">if !exist </span><span class="cov1" title="1">{
+                err = error.NewNotFound("employee_id", empID)
+                return
+        }</span>
+
+        <span class="cov7" title="3">dtl, rerr := uc.userLoginDetailRepo.GetUserLoginDetail(ctx, id)
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov4" title="2">copier.Copy(&amp;dtl, &amp;detail)
+
+        rerr = uc.userLoginDetailRepo.UpdateUserLoginDetail(ctx, id, dtl)
+        if rerr != nil </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov1" title="1">updRes = out.UpdateResponse{
+                IsUpdated: "true",
+        }
+        return</span>
+}
+</pre>
+		
+		<pre class="file" id="file20" style="display: none">package user_login_detail
+
+import (
+        "context"
+        "encoding/csv"
+        "fmt"
+        "io"
+        "mime/multipart"
+        "strconv"
+
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/domain/entity"
+
+        "github.com/jinzhu/copier"
+
+        "github.com/go-playground/validator/v10"
+        "github.com/go-sql-driver/mysql"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/error"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/in"
+        "www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/user_login_detail/out"
+)
+
+// UploadUsersLoginDetail method is used to share user login detail to repository and verify the return data from repoistory.
+func (uc *useCase) UploadUsersLoginDetail(ctx context.Context, file multipart.File) (savRes out.SaveResponse, err *error.Error) <span class="cov6" title="6">{
+        var dtls []entity.UserLoginDetails
+        details := []in.UploadUserDetail{}
+        lineCnt := 0
+        validate := validator.New()
+        csvReader := csv.NewReader(file)
+        for </span><span class="cov10" title="18">{
+                detail, rerr := csvReader.Read()
+                if rerr == io.EOF </span><span class="cov4" title="3">{
+                        break</span>
+                }
+                <span class="cov9" title="15">if rerr != nil </span><span class="cov1" title="1">{
+                        err = error.NewInternal()
+                        return
+                }</span>
+                <span class="cov9" title="14">lineCnt++
+                if lineCnt != 1 </span><span class="cov7" title="9">{
+                        isSignedUp, cerr := strconv.Atoi(detail[3])
+                        if cerr != nil </span><span class="cov1" title="1">{
+                                err = error.NewBadRequest(fmt.Sprintf("Line no: %d, CSV file contain invalid input values", lineCnt))
+                                return
+                        }</span>
+                        <span class="cov7" title="8">dtl := in.UploadUserDetail{
+                                DomainName:   detail[0],
+                                EmailID:      detail[1],
+                                EmployeeID:   detail[2],
+                                IsSignedUp:   isSignedUp,
+                                Password:     detail[4],
+                                Role:         detail[5],
+                                UUID:         detail[6],
+                                EnableAccess: "No",
+                        }
+
+                        if verr := validate.Struct(dtl); verr != nil </span><span class="cov1" title="1">{
+                                err = error.NewBadRequest(fmt.Sprintf("Line no: %d, Input validation was failed.", lineCnt))
+                                return
+                        }</span>
+                        <span class="cov7" title="7">details = append(details, dtl)</span>
+                }
+        }
+
+        <span class="cov4" title="3">copier.Copy(&amp;dtls, &amp;details)
+
+        rerr := uc.userLoginDetailRepo.CreateBulkUserLoginDetail(ctx, dtls)
+        serr, ok := rerr.(*mysql.MySQLError)
+        if rerr != nil &amp;&amp; !ok </span><span class="cov1" title="1">{
+                err = error.NewInternal()
+                return
+        }</span>
+
+        <span class="cov3" title="2">if ok &amp;&amp; serr.Number == 1062 </span><span class="cov1" title="1">{
+                err = error.NewBulkInsertConflict(serr.Message)
+                return
+        }</span>
+
+        <span class="cov1" title="1">savRes = out.SaveResponse{
+                IsSaved: "true",
+        }
+        return</span>
+}
+</pre>
+		
+		</div>
+	</body>
+	<script>
+	(function() {
+		var files = document.getElementById('files');
+		var visible;
+		files.addEventListener('change', onChange, false);
+		function select(part) {
+			if (visible)
+				visible.style.display = 'none';
+			visible = document.getElementById(part);
+			if (!visible)
+				return;
+			files.value = part;
+			visible.style.display = 'block';
+			location.hash = part;
+		}
+		function onChange() {
+			select(files.value);
+			window.scrollTo(0, 0);
+		}
+		if (location.hash != "") {
+			select(location.hash.substr(1));
+		}
+		if (!visible) {
+			select("file0");
+		}
+	})();
+	</script>
+</html>
