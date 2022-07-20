@@ -5,9 +5,9 @@ import (
 
 	"github.com/jinzhu/copier"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/domain/entity"
+	"www.ivtlinfoview.com/infotax/infotax-backend/app/error"
 
 	"github.com/go-sql-driver/mysql"
-	"www.ivtlinfoview.com/infotax/infotax-backend/app/error"
 
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/employee_official_detail/in"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/employee_official_detail/out"

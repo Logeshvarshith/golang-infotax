@@ -58,9 +58,10 @@ func Handler(conf *config.Config) *gin.Engine {
 	EmployeePayrollDetailHandler := employee_payroll_detail.NewEmployeePayrollDetailHandler(
 		registry.InjectedEmployeePayrollDetailUseCase(ctx),
 	)
-
+	EmployeePayrollDetailGroup.POST("/", EmployeePayrollDetailHandler.CreateEmployeePayrollDetail)
+	EmployeePayrollDetailGroup.GET("/", EmployeePayrollDetailHandler.GetAllEmployeePayrollDetail)
 	EmployeePayrollDetailGroup.GET("/download/template", EmployeePayrollDetailHandler.DownloadEmployeePayrollDetailTemplate)
-
+	EmployeePayrollDetailGroup.DELETE("/:emp_id", EmployeePayrollDetailHandler.DeleteEmployeeOfficialDetail)
 	return r
 
 }
