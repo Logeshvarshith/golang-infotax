@@ -3,11 +3,11 @@ package handler
 import (
 	"fmt"
 
+	"www.ivtlinfoview.com/infotax/infotax-backend/app/error"
 	"www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	"www.ivtlinfoview.com/infotax/infotax-backend/app/error"
 )
 
 type InvalidArgument struct {

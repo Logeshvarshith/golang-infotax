@@ -256,3 +256,121 @@
 
 2022-07-07 16:50:27 - validate_data.go - [line:39] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
 
+2022-07-07 22:17:57 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-07 22:17:57 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-07 22:17:57 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-07 22:17:57 - db.go - [line:20] - FATAL - Error, While connection mysql database: Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+
+2022-07-07 22:18:28 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-07 22:18:28 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-07 22:18:28 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-07 22:18:28 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-07 22:18:28 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-07 22:18:28 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-09 09:49:05 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-09 09:49:05 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-09 09:49:05 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:49:05 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:49:05 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:49:05 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-09 09:50:52 - main.go - [line:65] - INFO - Shutting down server :5000
+
+2022-07-09 09:51:02 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-09 09:51:02 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-09 09:51:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:51:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:51:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:51:02 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-09 09:57:02 - main.go - [line:65] - INFO - Shutting down server :5000
+
+2022-07-09 09:57:11 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-09 09:57:11 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-09 09:57:11 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:57:11 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:57:11 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:57:11 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-09 09:57:42 - main.go - [line:65] - INFO - Shutting down server :5000
+
+2022-07-09 09:57:50 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-09 09:57:50 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-09 09:57:50 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:57:50 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:57:50 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:57:50 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-09 09:58:18 - main.go - [line:65] - INFO - Shutting down server :5000
+
+2022-07-09 09:58:25 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-09 09:58:25 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-09 09:58:25 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:58:25 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:58:25 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 09:58:25 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-09 14:51:14 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-09 14:51:14 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-09 14:51:14 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 14:51:15 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 14:51:15 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 14:52:09 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-09 14:52:09 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-09 14:52:09 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 14:52:09 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 14:52:09 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 14:52:09 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-09 14:56:25 - validate_data.go - [line:39] - ERROR - Type: BAD_REQUEST, Message : Bad Request. Reason: Invalid request parameters. Verify request parameters once.
+
+2022-07-09 16:15:48 - main.go - [line:65] - INFO - Shutting down server :5000
+
+2022-07-09 16:15:56 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-09 16:15:56 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-09 16:15:56 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 16:15:56 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 16:15:56 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-09 16:15:56 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-19 20:53:01 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-19 20:53:01 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-19 20:53:01 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 20:53:01 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 20:53:01 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 20:53:01 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-19 21:30:14 - main.go - [line:65] - INFO - Shutting down server :5000
+
+2022-07-19 21:33:01 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-19 21:33:01 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-19 21:33:01 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:33:01 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:33:01 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:33:01 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-19 21:33:47 - delete_employee_payroll_detail.go - [line:16] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-19 21:34:54 - main.go - [line:65] - INFO - Shutting down server :5000
+
+2022-07-19 21:35:02 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-19 21:35:02 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-19 21:35:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:35:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:35:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:35:02 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-19 21:36:52 - main.go - [line:65] - INFO - Shutting down server :5000
+
+2022-07-19 21:37:02 - main.go - [line:31] - INFO - Load app environment variables
+2022-07-19 21:37:02 - main.go - [line:37] - INFO - Parse app configurations
+2022-07-19 21:37:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:37:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:37:02 - db.go - [line:15] - INFO - Connecting to mysql database
+2022-07-19 21:37:02 - main.go - [line:53] - INFO - Server listening on port :5000
+
+2022-07-19 21:37:10 - delete_employee_payroll_detail.go - [line:16] - ERROR - Type: INTERNAL, Message : Internal server error
+
+2022-07-19 21:38:20 - delete_user_login_detail.go - [line:28] - ERROR - Type: INTERNAL, Message : Internal server error
+
