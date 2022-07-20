@@ -53,6 +53,7 @@ func Handler(conf *config.Config) *gin.Engine {
 	)
 
 	EmployeeOfficialDetailGroup.POST("/", EmployeeOfficialDetailHandler.CreateEmployeeOfficialDetail)
+	EmployeeOfficialDetailGroup.PUT("/:emp_id", EmployeeOfficialDetailHandler.UpdateEmployeeOfficialDetail)
 
 	EmployeePayrollDetailGroup := r.Group(conf.EmployeePayrollDetailBaseUrl)
 	EmployeePayrollDetailHandler := employee_payroll_detail.NewEmployeePayrollDetailHandler(

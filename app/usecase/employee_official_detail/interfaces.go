@@ -11,6 +11,7 @@ import (
 
 type UseCaser interface {
 	CreateEmployeeOfficialDetail(ctx context.Context, detail in.CreateEmployeeOfficial) (out.SavedResponse, *error.Error)
+	UpdateEmployeeOfficialDetail(ctx context.Context, empId string, detail in.CreateEmployeeOfficial) (out.UpdatedResponse, *error.Error)
 }
 
 type useCase struct {
