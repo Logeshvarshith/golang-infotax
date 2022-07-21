@@ -7,7 +7,7 @@ import (
 	"www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
 )
 
-func (u *EmployeePayrollDetailHandler) DeleteEmployeeOfficialDetail(ctx *gin.Context) {
+func (u *EmployeePayrollDetailHandler) DeleteEmployeePayrollDetail(ctx *gin.Context) {
 	empID := ctx.Param("emp_id")
 
 	delRes, err := u.employeePayrollDetailUseCase.DeleteEmployeePayrollDetail(ctx, empID)

@@ -18,7 +18,7 @@ func NewEmployeePayrollDetailRepository(db *gorm.DB) *EmployeePayrollDetailRepos
 	}
 }
 
-func (r *EmployeePayrollDetailRepository) CheckIfEmployeePayrollDetailExists(ctx context.Context, empID entity.EmployeeID) (exist bool, err error) {
+func (r *EmployeePayrollDetailRepository) CheckIfEmployeePayrollDetailExists(ctx context.Context, empID []entity.EmployeeID) (exist bool, err error) {
 	var dtl out.EmployeePayrollDetail
 	tx := r.db.WithContext(ctx)
 	db := tx.Table("employee_payroll_mst").First(&dtl, empID)
