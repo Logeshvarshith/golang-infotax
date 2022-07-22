@@ -63,6 +63,7 @@ func Handler(conf *config.Config) *gin.Engine {
 	EmployeePayrollDetailGroup.GET("/", EmployeePayrollDetailHandler.GetAllEmployeePayrollDetail)
 	EmployeePayrollDetailGroup.GET("/download/template", EmployeePayrollDetailHandler.DownloadEmployeePayrollDetailTemplate)
 	EmployeePayrollDetailGroup.DELETE("/:emp_id", EmployeePayrollDetailHandler.DeleteEmployeePayrollDetail)
+	EmployeePayrollDetailGroup.DELETE("/", EmployeePayrollDetailHandler.DeleteMultipleEmployeePayrollDetail)
 	return r
 
 }
