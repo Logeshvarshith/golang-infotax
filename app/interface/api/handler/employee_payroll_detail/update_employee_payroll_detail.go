@@ -1,21 +1,21 @@
-package employee_official_detail
+package employee_payroll_detail
 
 import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/interface/api/handler"
-	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/employee_official_detail/in"
+	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/employee_payroll_detail/in"
 	"www.ivtlinfoview.com/infotax/infotax-backend/pkg/log"
 )
 
-func (u *EmployeeOfficialDetailHandler) UpdateEmployeeOfficialDetail(ctx *gin.Context) {
+func (u *EmployeePayrollDetailHandler) UpdateEmployeePayrollDetail(ctx *gin.Context) {
 	empid := ctx.Param("emp_id")
-	var detail in.UpdatedEmployeeOfficial
+	var detail in.UpdatedEmployeePayrollDetail
 	if ok := handler.ValidateData(ctx, &detail); !ok {
 		return
 	}
-	updRes, err := u.employeeofficialDetailUseCase.UpdateEmployeeOfficialDetail(ctx, empid, detail)
+	updRes, err := u.employeePayrollDetailUseCase.UpdateEmployeePayrollDetail(ctx, empid, detail)
 
 	if err != nil {
 		log.Logger.Errorf("Type: %v, Message : %v\n", err.Type, err.Message)

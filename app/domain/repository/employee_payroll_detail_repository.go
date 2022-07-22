@@ -11,5 +11,7 @@ type EmployeePayrollDetailRepository interface {
 	CreateEmployeePayrollDetail(ctx context.Context, payrolldetail entity.EmployeePayrollMst) error
 	GetAllEmployeePayrollDetail(ctx context.Context) ([]entity.EmployeePayrollMst, error)
 	DeleteEmployeePayrollDetail(ctx context.Context, empID entity.EmployeeID) error
-	CheckIfEmployeePayrollDetailExists(ctx context.Context, empID []entity.EmployeeIDs) (bool, error)
+	CheckIfEmployeePayrollDetailExists(ctx context.Context, empID entity.EmployeeID) (bool, error)
+	UpdateEmployeePayrollDetail(ctx context.Context, empID entity.EmployeeID, detail entity.EmployeePayrollMst) error
+	GetEmployeePayrollDetail(ctx context.Context, empID entity.EmployeeID) (entity.EmployeePayrollMst, error)
 }
