@@ -14,6 +14,7 @@ type UseCaser interface {
 	GetAllEmployeePayrollDetail(ctx context.Context) ([]out.EmployeePayrollDetail, *error.Error)
 	DeleteEmployeePayrollDetail(ctx context.Context, empID string) (out.DeleteResponse, *error.Error)
 	DeleteMultipleEmployeePayrollDetail(ctx context.Context, empID in.DeleteMultipleEmployee) (out.DeleteResponse, *error.Error)
+	UpdateEmployeePayrollDetail(ctx context.Context, empID string, detail in.UpdatedEmployeePayrollDetail) (out.UpdatedResponse, *error.Error)
 	DownloadEmployeePayrollDetailTemplate(ctx context.Context, filePath string) (string, string, *error.Error)
 }
 

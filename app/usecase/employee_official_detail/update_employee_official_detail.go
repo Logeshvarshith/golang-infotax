@@ -11,16 +11,16 @@ import (
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/employee_official_detail/in"
 )
 
-func (uc *useCase) UpdateEmployeeOfficialDetail(ctx context.Context, empID string, detail in.CreateEmployeeOfficial) (updRes out.UpdatedResponse, err *error.Error) {
+func (uc *useCase) UpdateEmployeeOfficialDetail(ctx context.Context, empID string, detail in.UpdatedEmployeeOfficial) (updRes out.UpdatedResponse, err *error.Error) {
 
 	id := entity.EmployeeID(empID)
 	exist, rerr := uc.employeeOfficialDetailRepo.CheckIfEmployeeOfficialDetailExists(ctx, id)
-	if rerr != nil {
-		err = error.NewInternal()
-		return
-	}
 	if !exist {
 		err = error.NewNotFound("employee_id", empID)
+		return
+	}
+	if rerr != nil {
+		err = error.NewInternal()
 		return
 	}
 

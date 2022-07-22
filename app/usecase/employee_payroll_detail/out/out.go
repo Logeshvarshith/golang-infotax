@@ -22,3 +22,6 @@ type PayrollDetailSaveResponse struct {
 type DeleteResponse struct {
 	IsDeleted string `json:"isDeleted"`
 }
+type UpdatedResponse struct {
+	IsUpdated string `json:"isUpdated"`
+}
