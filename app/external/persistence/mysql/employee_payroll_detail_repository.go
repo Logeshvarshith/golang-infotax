@@ -18,6 +18,7 @@ func NewEmployeePayrollDetailRepository(db *gorm.DB) *EmployeePayrollDetailRepos
 	}
 }
 
+
 func (ep *EmployeePayrollDetailRepository) CheckIfEmployeePayrollDetailExists(ctx context.Context, empID entity.EmployeeID) (exist bool, err error) {
 	var dtl out.EmployeePayrollDetail
 	tx := ep.db.WithContext(ctx)
@@ -61,5 +62,17 @@ func (ep *EmployeePayrollDetailRepository) DeleteEmployeePayrollDetail(ctx conte
 	tx := ep.db.WithContext(ctx)
 	db := tx.Table("employee_payroll_mst").Where("employee_id=?", id).Delete(&entity.EmployeePayrollMst{})
 	err = db.Error
+	return
+}
+
+func (r *EmployeePayrollDetailRepository) DeleteMultipleEmployeePayrollDetail(ctx context.Context, id entity.DeleteMultipleEmployee) (exist bool, err error) {
+	tx := r.db.WithContext(ctx)
+
+	db := tx.Table("employee_payroll_mst").Where("employee_id IN(?)", id.EmployeeID).Delete(&entity.EmployeePayrollMst{})
+	err = db.Error
+	if db.RowsAffected == 0 {
+		exist = false
+	}
+	exist = true
 	return
 }

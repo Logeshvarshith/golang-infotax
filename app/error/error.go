@@ -103,6 +103,13 @@ func NewNotFound(name, value string) *Error {
 	}
 }
 
+func NewNotFoundMultiple() *Error {
+	return &Error{
+		Type:    NotFound,
+		Message: fmt.Sprintf("Employee_id not found"),
+	}
+}
+
 func NewPayloadTooLarge(maxContentSize, actualContentSize int64) *Error {
 	return &Error{
 		Type:    PayloadTooLarge,

@@ -15,3 +15,6 @@ type EmployeePayrollMst struct {
 	EsiNumber         string
 }
 
+type DeleteMultipleEmployee struct {
+	EmployeeID []string
+}

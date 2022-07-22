@@ -28,3 +28,7 @@ type UpdatedEmployeePayrollDetail struct {
 	PrAccountNumber   string `json:"pr_account_number"`
 	EsiNumber         string `json:"esi_number"`
 }
+
+type DeleteMultipleEmployee struct {
+	EmployeeID []string `json:"employee_id"`
+}
