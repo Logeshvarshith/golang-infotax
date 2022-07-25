@@ -2,7 +2,9 @@ package mysql
 
 import (
 	"context"
+	"fmt"
 
+	"github.com/thoas/go-funk"
 	"gorm.io/gorm"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/domain/entity"
 	"www.ivtlinfoview.com/infotax/infotax-backend/app/usecase/employee_payroll_detail/out"
@@ -17,7 +19,6 @@ func NewEmployeePayrollDetailRepository(db *gorm.DB) *EmployeePayrollDetailRepos
 		db: db,
 	}
 }
-
 
 func (ep *EmployeePayrollDetailRepository) CheckIfEmployeePayrollDetailExists(ctx context.Context, empID entity.EmployeeID) (exist bool, err error) {
 	var dtl out.EmployeePayrollDetail
@@ -65,8 +66,8 @@ func (ep *EmployeePayrollDetailRepository) DeleteEmployeePayrollDetail(ctx conte
 	return
 }
 
-func (r *EmployeePayrollDetailRepository) DeleteMultipleEmployeePayrollDetail(ctx context.Context, id entity.DeleteMultipleEmployee) (exist bool, err error) {
-	tx := r.db.WithContext(ctx)
+func (ep *EmployeePayrollDetailRepository) DeleteMultipleEmployeePayrollDetail(ctx context.Context, id entity.DeleteMultipleEmployee) (exist bool, err error) {
+	tx := ep.db.WithContext(ctx)
 
 	db := tx.Table("employee_payroll_mst").Where("employee_id IN(?)", id.EmployeeID).Delete(&entity.EmployeePayrollMst{})
 	err = db.Error
@@ -74,5 +75,23 @@ func (r *EmployeePayrollDetailRepository) DeleteMultipleEmployeePayrollDetail(ct
 		exist = false
 	}
 	exist = true
+	return
+}
+
+func (ep *UserLoginDetailRepository) SearchEmployeePayrollDetail(ctx context.Context, filterMap entity.FilterMap) (dtls []entity.EmployeePayrollMst, err error) {
+	tx := ep.db.WithContext(ctx)
+
+	db := tx.Table("employee_payroll_mst")
+	funk.ForEach(filterMap, func(key string, value interface{}) {
+		if key != "UanNumber" && key != "BankAccountNumber" {
+			col := fmt.Sprintf("%s LIKE ?", key)
+			colVal := fmt.Sprintf("%%%v%%", value)
+			db = db.Where(col, colVal)
+		} else {
+			db = db.Where(key+"= ?", value)
+		}
+	})
+	db.Find(&dtls)
+	err = db.Error
 	return
 }
